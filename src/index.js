@@ -1,15 +1,9 @@
 import ReactDom from "react-dom";
-import TelaBoasVindas from "./Tela-Boas-Vindas";
-import TelaFlashCards from "./Tela-Flash-Cards";
+import App from "./App"
 
-function App () {
-    return (
-        <>
-            <TelaBoasVindas />
-            <TelaFlashCards />
-        </>
-    )
-}
+import "./css/styles.css"
+import "./css/reset.css"
+
 
 
 ReactDom.render(<App />, document.querySelector(".root"))
