@@ -3,17 +3,17 @@ import CardResposta from "./CardResposta"
 import setinha from "../assets/setinha.png"
 
 export default function AbrirCard (props) {
-    const {pergunta, resposta} = props
-    const [virar, setVirar] = useState(true)
+    let {pergunta, resposta, setSelecionado} = props
+    let [virar, setVirar] = useState(true)
     return (
         <div onClick={() => setVirar(false)}>
-            {virar ? <CardPergunta pergunta = {pergunta} /> : <CardResposta resposta = {resposta} />}
+            {virar ? <CardPergunta pergunta = {pergunta} /> : <CardResposta resposta = {resposta} setSelecionado={setSelecionado}/>}
         </div>
     )
 }
 
 function CardPergunta (props) {
-    const {pergunta} = props
+    let {pergunta} = props
     return (
         <>
             {pergunta}
@@ -21,3 +21,4 @@ function CardPergunta (props) {
         </>
     )
 }
+

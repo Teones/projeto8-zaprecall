@@ -5,8 +5,7 @@ import TelaPrincipal from "./components/TelaPrincipal.js";
 
 
 export default function App () {
-    const [pagina, setPagina] = useState("TelaInicial")
-    console.log(pagina)
+    let [pagina, setPagina] = useState("TelaInicial")
     return (
         <>
             {pagina === "TelaInicial" && <TelaInicial setPagina={setPagina} />}

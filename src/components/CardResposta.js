@@ -1,13 +1,15 @@
 export default function CardResposta (props) {
-    const {resposta} = props
+    let {resposta, setSelecionado} = props
     return (
         <>
             {resposta}
             <div className="opcoes">
-                <div className="nao-lembrei">Não lembrei</div>
-                <div className="quase">Quase não lembrei</div>
-                <div className="zap">Zap!</div>
+                <div className="nao-lembrei" onClick={() => setSelecionado("incorreto")}>Não lembrei</div>
+                <div className="quase" onClick={() => setSelecionado("demorou")}>Quase não lembrei</div>
+                <div className="zap" onClick={() => setSelecionado("correto")}>Zap!</div>
             </div>
         </>
     )
 }
+
+

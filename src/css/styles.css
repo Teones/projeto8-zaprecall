@@ -160,6 +160,23 @@ body {
 .card .zap {
   background-color: #2FBE34;
 }
+.incorreto {
+  color: #D70900;
+  text-decoration: line-through;
+}
+.demorou {
+  color: #FF922E;
+  text-decoration: line-through;
+}
+.correto {
+  color: #2FBE34;
+  text-decoration: line-through;
+}
+.card .incorreto img, .card .demorou img, .card .correto img {
+  width: 23px;
+  height: 23px;
+  bottom: 19px;
+}
 
 footer {
   width: 100%;
