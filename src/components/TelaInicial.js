@@ -1,10 +1,10 @@
 import logo from "../assets/logo.png"
 
-export default function TelaInicial () {
+export default function TelaInicial ({setPagina}) {
     return (
         <div className="tela-inicial">
             <Logo />
-            <Botao />
+            <Botao setPagina={setPagina}/>
         </div>
     )
 }
@@ -17,8 +17,8 @@ function Logo () {
         </div>
     )
 }
-function Botao () {
+function Botao ({setPagina}) {
     return (
-            <button>Iniciar Recall!</button>
+            <button onClick={() => setPagina("TelaPrincipal")}>Iniciar Recall!</button>
     )
 }
