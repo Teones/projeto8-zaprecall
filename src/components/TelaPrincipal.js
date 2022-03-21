@@ -6,11 +6,10 @@ export default function TelaPrincipal () {
         <div className="tela-principal">
             <Logo />
             <Cards />
-            <Footer />
+            {/* <Footer /> */}
         </div>
     )
 }
-
 function Logo () {
     return (
         <div className="logo-principal">
@@ -20,10 +19,11 @@ function Logo () {
     )
 }
 
-function Footer () {
-    return (
-        <footer>
-            0/8 CONCLUIDOS
-        </footer>
-    )
-}
+// function Footer () {
+//     let [total, setTotal] = useState(0)
+//     return (
+//         <footer>
+//             {total}/8 CONCLUIDOS
+//         </footer>
+//     )
+// }

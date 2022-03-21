@@ -1,4 +1,7 @@
 import Card from "./Card";
+import incorreto from "../assets/incorreto.png"
+import quase from "../assets/quase.png"
+import zap from "../assets/zap.png"
 
 export default function Cards () {
     let cards = [
@@ -21,11 +24,33 @@ export default function Cards () {
             cards[i].questao = `pergunta ${i+1}`
         }
     } entitular()
-    console.log(cards)
+
 
     return (
-        <div className="cards">
-            {cards.map(card => <Card pergunta={card.pergunta} resposta={card.resposta} questao={card.questao} status={card.status}/>)}
-        </div>
+        <>
+            <div className="cards">
+                {cards.map(card => <Card pergunta={card.pergunta} resposta={card.resposta} questao={card.questao} status={card.status}/>)}
+            </div>
+
+            <footer>
+                <div className="total">
+                    {0}/8 CONCLUIDLOS
+                </div>
+                <div className="icones">
+                    {cards.map(icon => <Icon status={icon.status} /> )}
+                </div>
+            </footer>
+        </>
+    )
+}
+
+function Icon ({status}) {
+    return(
+        <>
+            {status === "incorreto" && <img src={incorreto} />}
+            {status === "quase" && <img src={quase} />}
+            {status === "correto" && <img src={zap} />}
+        </>
+
     )
 }
