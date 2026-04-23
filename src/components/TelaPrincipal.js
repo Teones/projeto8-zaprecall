@@ -1,12 +1,16 @@
+import { useState } from "react"
 import logo from "../assets/logo.png"
 import Cards from "./Cards"
 
 export default function TelaPrincipal () {
+    let [cardsRespondidos, setCardsRespondidos] = useState(0);
+
     return (
         <div className="tela-principal">
             <Logo />
-            <Cards />
-            {/* <Footer /> */}
+            <Cards cardsRespondidos={cardsRespondidos} 
+                setCardsRespondidos={setCardsRespondidos} />
+            <footer cardsRespondidos={cardsRespondidos}  />
         </div>
     )
 }
@@ -18,12 +22,3 @@ function Logo () {
         </div>
     )
 }
-
-// function Footer () {
-//     let [total, setTotal] = useState(0)
-//     return (
-//         <footer>
-//             {total}/8 CONCLUIDOS
-//         </footer>
-//     )
-// }
