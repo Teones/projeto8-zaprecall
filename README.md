@@ -3,12 +3,12 @@
 <h1>ZapRecall</h1>
 
 ![Status_do_Projeto](https://img.shields.io/badge/status-concluded-green)
-![Data_de_Criação](https://img.shields.io/badge/create-april_/_2026-blue)
+![Data_de_Criação](https://img.shields.io/badge/create-march_/_2022-blue)
 ![Última_Atualização](https://img.shields.io/badge/version-april_/_2026-red)
 
 ZapRecall é um jogo de flashcards focado na memorização de conceitos, desenvolvido para consolidar os fundamentos do React. O projeto utiliza estados complexos, componentização e passagem de propriedades (props) para gerenciar o fluxo do jogo, garantindo uma interface interativa e dinâmica para o usuário.
 
-| <div style="text-align: center;"><img src="INSIRA_AQUI_O_CAMINHO_DA_IMAGEM_MOBILE_1" alt="Tela Inicial" width="150" style="border: none;"/></div> | <div style="text-align: center;"><img src="INSIRA_AQUI_O_CAMINHO_DA_IMAGEM_MOBILE_2" alt="Flashcards em Andamento" width="150" style="border: none;"/></div> | <div style="text-align: center;"><img src="INSIRA_AQUI_O_CAMINHO_DA_IMAGEM_MOBILE_3" alt="Tela de Finalização" width="150" style="border: none;"/></div> |
+| <div style="text-align: center;"><img src="./src//assets/iPhone-13-PRO-localhost.png" alt="Tela Inicial" width="150" style="border: none;"/></div> | <div style="text-align: center;"><img src="./src//assets/iPhone-13-PRO-localhost (1).png" alt="Flashcards em Andamento" width="150" style="border: none;"/></div> | <div style="text-align: center;"><img src="./src//assets/iPhone-13-PRO-localhost (2).png" alt="Tela de Finalização" width="150" style="border: none;"/></div> |
 |:-:|:-:|:-:|
 
 ## 🔨 Features
