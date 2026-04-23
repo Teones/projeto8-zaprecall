@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/projeto8-zaprecall/static/css/main.d710a210.chunk.css",
+    "main.js": "/projeto8-zaprecall/static/js/main.7e1d8ec9.chunk.js",
+    "main.js.map": "/projeto8-zaprecall/static/js/main.7e1d8ec9.chunk.js.map",
+    "runtime-main.js": "/projeto8-zaprecall/static/js/runtime-main.ff2b98d0.js",
+    "runtime-main.js.map": "/projeto8-zaprecall/static/js/runtime-main.ff2b98d0.js.map",
+    "static/js/2.01873136.chunk.js": "/projeto8-zaprecall/static/js/2.01873136.chunk.js",
+    "static/js/2.01873136.chunk.js.map": "/projeto8-zaprecall/static/js/2.01873136.chunk.js.map",
+    "index.html": "/projeto8-zaprecall/index.html",
+    "static/css/main.d710a210.chunk.css.map": "/projeto8-zaprecall/static/css/main.d710a210.chunk.css.map",
+    "static/js/2.01873136.chunk.js.LICENSE.txt": "/projeto8-zaprecall/static/js/2.01873136.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ff2b98d0.js",
+    "static/js/2.01873136.chunk.js",
+    "static/css/main.d710a210.chunk.css",
+    "static/js/main.7e1d8ec9.chunk.js"
+  ]
+}
