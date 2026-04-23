@@ -14,8 +14,8 @@ const DECK = [
 DECK.sort(() => Math.random() - 0.5);
 
 export default function Cards (props) {
-    let { cardsRespondidos, setCardsRespondidos } = props;
-
+    let { adicionarResultado } = props;
+    
     return (
         <>
             <div className="cards">
@@ -25,9 +25,7 @@ export default function Cards (props) {
                     pergunta={card.pergunta} 
                     resposta={card.resposta} 
                     questao={`Pergunta ${index + 1}`} 
-                    status={card.status}
-                    setCardsRespondidos={setCardsRespondidos}
-                    cardsRespondidos={cardsRespondidos}
+                    adicionarResultado={adicionarResultado}
                 />
             ))}
             </div>
